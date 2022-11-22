@@ -21,11 +21,11 @@ public class App {
 
         // Establecemos las condiciones que dictaminan que vocal se repite más veces en base a las variables establecidas previamente
         if(timesA ==0 && timesE == 0 && timesI == 0 && timesO == 0 && timesU == 0 ) return ("Lo sentimos. No hay vocales en tu texto.");
-        else if(timesA > timesE && timesA> timesI && timesA> timesO && timesA> timesU) return("La vocal que más veces se repite es la letra A.");
-        else if(timesE > timesA && timesE> timesI && timesE> timesO && timesE> timesU) return("La vocal que más veces se repite es la letra E.");
-        else if(timesI > timesA && timesI> timesE && timesI> timesO && timesI> timesU) return("La vocal que más veces se repite es la letra I.");
-        else if(timesO > timesA && timesO> timesE && timesO> timesI && timesO> timesU) return("La vocal que más veces se repite es la letra O.");
-        else if(timesU > timesA && timesU> timesE && timesU> timesI && timesU> timesO) return("La vocal que más veces se repite es la letra U.");
+        else if(timesA > timesE && timesA > timesI && timesA > timesO && timesA > timesU) return("La vocal que más veces se repite es la letra A.");
+        else if(timesE > timesA && timesE > timesI && timesE > timesO && timesE > timesU) return("La vocal que más veces se repite es la letra E.");
+        else if(timesI > timesA && timesI > timesE && timesI > timesO && timesI > timesU) return("La vocal que más veces se repite es la letra I.");
+        else if(timesO > timesA && timesO > timesE && timesO > timesI && timesO > timesU) return("La vocal que más veces se repite es la letra O.");
+        else if(timesU > timesA && timesU > timesE && timesU > timesI && timesU > timesO) return("La vocal que más veces se repite es la letra U.");
 
         // En caso de empate a vocales mostrara el siguiente mensaje
         else return("Existe un empate entre ciertas vocales.");
@@ -35,7 +35,7 @@ public class App {
         public static void main(String[] args) {
 
             // Texto sin vocales
-            System.out.println(contadorVocal("hdhhdhdhdhdhdhhdhdhdhdhd"));
+            System.out.println(contadorVocal( "hdhhdhdhdhdhdhhdhdhdhdhd"));
             // Letra A
             System.out.println(contadorVocal("El ala de pata de pava."));
             // Letra E

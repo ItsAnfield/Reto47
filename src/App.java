@@ -35,7 +35,7 @@ public class App {
         public static void main(String[] args) {
 
             // Texto sin vocales
-            System.out.println(contadorVocal( "hdhhdhdhdhdhdhhdhdhdhdhd"));
+            System.out.println(contadorVocal("hdhhdhdhdhdhdhhdhdhdhdhd"));
             // Letra A
             System.out.println(contadorVocal("El ala de pata de pava."));
             // Letra E
